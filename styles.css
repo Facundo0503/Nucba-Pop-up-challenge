@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@media (max-width: 576px)
+ body{
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
    background-color: rgb(236, 236, 236);
-   font-family: sans-serif;
+   font-family: "Roboto";
    display: block;
-   margin: 8px;
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
 }
 #close{
     position: absolute;
@@ -13,10 +25,11 @@ body{
     background-color: transparent;
     font-size: 100%;
     outline: none;
+    cursor: pointer;
 }
 #margen{
-    max-width: 432px;
-    max-height: 399px;
+    width: 432px;
+    height: 399px;
     background-color: #FFF;
     border-radius: 20px;
     position: relative;
@@ -54,18 +67,18 @@ p{
     cursor: pointer;
 }
 #margen2{
-    max-width: 432px;
-    max-height: 399px;
+    width: 432px;
+    height: 399px;
     background-color: #FFF;
     border-radius: 20px;
-    position: relative;
+    position: absolute;
     text-align: center;
     border: none;
     padding: 4rem;
     box-sizing: border-box;
     /* demas */
     display: block;
-    position: absolute;
+    position: fixed;
     left: 0px;
     right: 0px;
     width: fit-content;
@@ -83,6 +96,7 @@ p{
     background-color: transparent;
     font-size: 100%;
     outline: none;
+    cursor: pointer;
 }
 .btn2{
     background-color: #1c1b5e;
